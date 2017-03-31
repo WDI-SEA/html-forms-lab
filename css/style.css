@@ -1,0 +1,55 @@
+body {
+    background-color: #98D2BF;
+    font-style: sans-serif;
+}
+
+section {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    height: 900px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.name {
+    margin-left: 25px;
+}
+
+.email {
+    margin-left: 25px;
+}
+
+.number {
+    margin-left: 25px;
+}
+
+.where {
+    margin-left: 25px;
+}
+
+.course {
+    margin-left: 25px;
+}
+
+.where {
+    margin-left: 25px;
+}
+
+.experience {
+    margin-left: 25px;
+}
+
+.updates {
+    margin-left: 25px;
+}
+
+input[type=submit] {
+    background-color: red;
+}
