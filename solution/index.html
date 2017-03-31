@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="author" href="humans.txt">
+</head>
+
+<body>
+    <form>
+        <fieldset class="contactinfo">
+            <h2>YOUR CONTACT INFO</h2>
+            <div>
+                <p>Full Name</p>
+                <input type="text" name="fullname" placeholder="Enter your Name">
+            </div>
+            <div>
+                <p>Email</p>
+                <input type="text" name="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <p>Phone Number</p>
+                <input type="text" name="phonenumber" placeholder="Enter your phone number">
+            </div>
+        </fieldset>
+        <fieldset class="skillsandinterests">
+            <h2>SKILLS AND INTERESTS</h2>
+            <div>
+                <p>What course are you interested in?</p>
+                <select name="courselist">
+                    <option value="noselect">Select</option>
+                    <option value="dsi">Data Science</option>
+                    <option value="uxi">User Experience</option>
+                    <option value="wdi">Web Development</option>
+                </select>
+            </div>
+            <div>
+                <p>Where do you want to take this course?</p>
+                San Francisco
+                <input type="radio" name="sanfran"> Chicago
+                <input type="radio" name="chicago">
+            </div>
+            <div>
+                <p>Past Experience</p>
+                <textarea name="experience" placeholder="What is your past experience?"></textarea>
+            </div>
+        </fieldset>
+        <fieldset class="bottom">
+            <div>
+                I want to receive email updates.
+                <input type="checkbox" name="receiveupdates">
+            </div>
+            <div>
+                <input class="submit" type="submit" name="submitapp" value="Submit Application">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+body {
+    background: #98D2BF;
+    border: #dfdfdf;
+}
+
+form {
+    width: 60%;
+    background-color: white;
+    margin: 30px auto;
+}
+
+.contactinfo input {
+    font-size: .9em;
+    padding: 10px;
+    width: 90%;
+}
+
+fieldset {
+    width: 80%;
+    margin: auto;
+    border: 0;
+    border-bottom: 2px solid #dfdfdf;
+}
+
+.skillsandinterests select {
+    font-size: .9em;
+    padding: 10px;
+    width: 45%;
+}
+
+textarea {
+    font-size: .9em;
+    height: 80px;
+    width: 80%;
+}
+
+.bottom input {
+    margin: 20px 0;
+}
+
+.submit {
+    background: #B69843;
+    color: white;
+    font-size: .9em;
+    padding: 10px 20px;
+}
