@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>html forms</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="author" href="humans.txt">
+</head>
+
+<body>
+    <section>
+        <h1>Your Contact Info</h1>
+        <form>
+            <div class="contactinfo">
+                <div>
+                    <!-- plain text <input type="text"> -->
+                    <form method="GET" action="#">
+                        <div>
+                            <label>Full Name</label>
+                        </div>
+                        <input type="text" name="fullname" placeholder="Enter your name">
+                    </form>
+                </div>
+                <div>
+                    <!-- plain text <input type="text"> -->
+                    <div>
+                        <label>Email</label>
+                    </div>
+                    <input type="text" name="email" placeholder="Enter you email">
+                </div>
+                <div>
+                    <!-- plain text <input type="text"> -->
+                    <div>
+                        <label>Phone Number</label>
+                    </div>
+                    <input type="text" name="phonenumber" placeholder="Enter your phone number">
+                </div>
+            </div>
+        </form>
+    </section>
+    <section>
+        <h1>Skills and Interests</h1>
+        <div class="skillsandinterests">
+            <form>
+                <div>
+                    <!-- drop-down lists    <select><option> -->
+                    <div>
+                        <label>What course are you interested in?</label>
+                    </div>
+                    <select name="select">
+                        <option value="select" selected>Select</option>
+                        <option value="WDI">WDI</option value="User Experience">
+                        <option>User Experience</option>
+                        <option value="Data Science">Data Science</option>
+                    </select>
+                </div>
+            </form>
+            <form>
+                <div>
+                    <!-- radio button   <input type="radio"> -->
+                    <label>Where do you want to take this course?</label>
+                    <div>
+                        <input type="radio">San Francisco
+                        <input type="radio">Chicago
+                    </div>
+                </div>
+            </form>
+            <form>
+                <div>
+                    <!-- text area  <textarea></textarea> -->
+                    <label>Past Experience</label>
+                    <div>
+                        <textarea rows="5" cols="50">What is your past experience?</textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="updates">
+            <form>
+                <!-- checkbox   <input type="checkbox"> -->
+                <label>I want to recieve email updates.</label>
+                <input type="checkbox" name="updates">
+                </ins>
+        </div>
+        </form>
+        <form>
+            <div>
+                <!-- submit button  <input type="submit"> -->
+                <button type="submit" name="submit" value="Submit Application">Submit Application</button>
+            </div>
+        </form>
+        </div>
+    </section>
+    </section>
+</body>
+
+</html>
