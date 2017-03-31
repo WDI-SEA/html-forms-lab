@@ -1,0 +1,47 @@
+body {
+    background-color: #98D2BF;
+    margin: 2em;
+}
+
+h1 {
+    padding: 1em;
+    font-size: 16pt;
+    color: black;
+}
+
+section {
+    margin: 3em;
+    background: white;
+}
+
+.top {
+    padding-bottom: 5em;
+    margin: 6em;
+}
+
+div.top {
+    background-color: white;
+}
+
+div.skills {
+    border-top: 2px solid #dfdfdf;
+    border-bottom: 2px solid #dfdfdf;
+    margin: 2em 0 2em 0;
+}
+
+.button {
+    position: absolute;
+    padding: 4px;
+    margin: 1em;
+    background: #B69843;
+}
+
+textarea {
+    height: 80px;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+select {
+    width: 40%;
+}
