@@ -1,0 +1,31 @@
+body {
+    background-color: #98D2BF;
+}
+
+.white-box {
+    background-color: white;
+    margin: 50px 450px;
+}
+
+form {
+    padding: 15px 40px;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    border-color: #dfdfdf;
+    border-style: solid;
+    width: 100%;
+    height: 40px;
+}
+
+input[type="submit"] {
+    background-color: #B69843;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #B69843;
+    color: white;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+}
