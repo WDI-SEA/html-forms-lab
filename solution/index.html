@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="form">
+        <div>
+            <h1>YOUR CONTACT INFO</h1>
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Enter your Name">
+            <label>Email</label>
+            <input type="text" name="email" placeholder="Enter your email">
+            <label>Phone Number</label>
+            <input type="text" name="number" placeholder="Enter your phone number">
+        </div>
+        <div>
+            <h1>SKILLS AND INTERESTS</h1>
+            <p>What course are you interested in?</p>
+            <select class="select">
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select>
+            <p>Where did you want to take this course?</p>
+            <span>San Francisco</span>
+            <input type="radio" name="sf">
+            <span>Chicago</span>
+            <input type="radio" name="chi">
+            <p>Past Experience</p>
+            <textarea placeholder="What is your past experience?"></textarea>
+        </div>
+        <div class="last">
+            <span>I want to receive email updates</span>
+            <input type="checkbox" name="updates">
+            <br>
+            <input class="submit" type="submit" value="Submit Application">
+        </div>
+    </form>
+</body>
+
+</html>
