@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forms Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <article>
+        <h1>YOUR CONTACT INFO</h1>
+        <form action="#" method="#">
+            <div>
+                <h2>Full Name</h2>
+                <input id="name" type="text" name="name" placeholder="Enter your name">
+            </div>
+            <h2>Email</h2>
+            <input id="email" type="text" name="email" placeholder="Enter your email">
+            </div>
+            <h2>Phone number</h2>
+            <input id="phone" type="text" name="phone" placeholder="Enter your phone number">
+            </div>
+    </article>
+    <article>
+        <h1>SKILLS AND INTERESTS</h1>
+        <div>
+            <p>What course are you interested in?</p>
+            <select id="course" name="course" placeholder="select">
+                <option value="value1" selected>WDI</option>
+                <option value="value2">Drinking</option>
+                <option value="value3">Parties</option>
+            </select>
+        </div>
+        <div>
+            <p>Where do you want to take this course?</p>
+            <input id="SF" type="radio" name="location">San Francisco
+            <input id="SEA" type="radio" name="location">Chicago
+        </div>
+        <div>
+            <p>Past Experience</p>
+            <textarea name="experience" id="experience" cols="30" rows="10" placeholder="What is your past experience?"></textarea>
+        </div>
+    </article>
+    <div>
+        I want to recieve updates.
+        <input type="checkbox">
+    </div>
+    <div>
+        <input type="submit" value="Submit Application">
+    </div>
+    </form>
+</body>
+
+</html>
