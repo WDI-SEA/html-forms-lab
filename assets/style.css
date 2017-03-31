@@ -1,0 +1,59 @@
+body {
+    background-color: teal;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+div {
+    font-size: 16px;
+}
+
+main {
+    padding: 20px 20px;
+}
+
+select {
+    width: 50%;
+    height: 20px;
+}
+
+#submit {
+    color: brown;
+}
+
+#form-box {
+    height: 600px;
+    width: 400px;
+    align-content: : center;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#formfield {
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.radio {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+.submit-wrapper {
+    display: block;
+    background-color: white;
+    color: brown;
+    border: none;
+    padding: 0px 20px 0px 20px;
+    border-radius: 25px;
+}
+
+.textarea-wrapper {
+    width: 100%;
+    height: 50px;
+}
